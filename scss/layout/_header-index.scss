@@ -1,0 +1,25 @@
+.header-index {
+	@include flex (row, $background-color, space-between, center);
+	section {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 20px;
+		.imglogo {
+			width: 10%;
+			height: 10%;
+		}
+		h1 {
+			@include font(25px, rgb(255, 255, 255))
+		}
+        h2 {
+			@include font(25px, rgb(255, 252, 252))
+		}
+		a {
+			img {
+				width: 50%;
+				height: 50%;
+			}
+		}
+	}
+}

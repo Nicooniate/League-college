@@ -1,0 +1,16 @@
+@mixin font ($size, $color,) {
+    text-decoration: none;
+    list-style: none;
+    font-size: $size;
+    color: $color;
+    font-family: 'Inter', sans-serif;
+};
+
+@mixin flex ($flex, $background, $justify, $aling) {
+    display: flex;
+    flex-direction: $flex;
+    background-color: $background;
+    justify-content: $justify;
+    align-items: $aling;
+};
+

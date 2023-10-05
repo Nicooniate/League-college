@@ -1,0 +1,96 @@
+.mainorg {
+	padding: 100px;
+}
+
+.main-index1 {
+	section {
+		@include flex(row, 0, space-evenly, center);
+		div {
+			position: relative;
+			width: 300px;
+			margin: 10px;
+			overflow: hidden;
+			border-radius: 12px;
+			-webkit-border-radius: 12px;
+			-moz-border-radius: 12px;
+			-ms-border-radius: 12px;
+			-o-border-radius: 12px;
+			img {
+				width: 140%;
+				height: auto;
+				object-fit: cover;
+			}
+			div {
+				margin: 0px;
+				position: absolute;
+				top: -3px;
+				width: 100%;
+				height: 100%;
+				color: $background-color;
+				@include flex(0, 0, center, end);
+				transition: opacity 0.3s ease;
+				-moz-transition: opacity 0.3s ease;
+				-ms-transition: opacity 0.3s ease;
+				-o-transition: opacity 0.3s ease;
+				-webkit-transition: opacity 0.3s ease;
+				button {
+					border-color: rgba(255, 0, 0, 0);
+					@include font(30px, $background-color2);
+					background-color: rgba(0, 0, 0, 0.783);
+					a {
+						text-decoration: none;
+						list-style: none;
+						color: $background-color2;
+						&:hover {
+							transition: 0.3s;
+							-webkit-transition: 0.3s;
+							-moz-transition: 0.3s;
+							-ms-transition: 0.3s;
+							-o-transition: 0.3s;
+							border-color: rgba(255, 0, 0, 0);
+							color: #fdfdfd
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.main-index2 {
+    @include flex(column, 0, space-evenly, center);
+		div {
+            @include flex(column, 0, center, center);
+			img {
+				width: 1070px;
+				height: 700px;
+			}
+			button {
+                border-color: rgba(255, 0, 0, 0);
+					@include font(30px, $background-color2);
+					background-color: rgba(0, 0, 0, 0.783);
+					a {
+						text-decoration: none;
+						list-style: none;
+						color: $background-color2;
+						&:hover {
+							transition: 0.3s;
+							-webkit-transition: 0.3s;
+							-moz-transition: 0.3s;
+							-ms-transition: 0.3s;
+							-o-transition: 0.3s;
+							border-color: rgba(255, 0, 0, 0);
+							color: #fdfdfd;
+}}}}}
+
+.fotos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+			img{
+				width: 787px;
+				height: 400px;
+			}
+}

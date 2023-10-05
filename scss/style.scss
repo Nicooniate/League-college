@@ -1,0 +1,29 @@
+//IMPORTS
+
+//UTILITIES
+
+@import "./utilities/var";
+@import "./utilities/mixins";
+
+//BASE
+
+@import "./base/reset";
+
+//LAYOUT
+
+@import "./layout/header-index";
+@import "./layout/navBar";
+
+//COMPONENTS
+
+@import "./components/main-index";
+@import "./components/imgtablas";
+@import "./components/inscripcionform";
+
+//MEDIAS
+@import "./layout/medias/media320";
+
+
+
+
+

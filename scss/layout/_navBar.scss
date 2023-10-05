@@ -1,0 +1,16 @@
+.navBar{
+    ul{
+        @include flex (row, black, space-evenly, center );
+        li{
+            text-decoration: none;
+            list-style: none;
+            background-color: black;
+            a{
+                @include font (25px, white);
+                &:hover{
+                    color: $background-color;
+                }
+            }
+        }
+    }
+}

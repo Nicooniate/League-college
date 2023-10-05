@@ -1,19 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
-* {
-	margin: 0;
-}
-
-body {
-	background-image: linear-gradient(to top, #9e2e2a, #761b18);
-}
-
-.mainorg {
-	padding: 100px;
-}
-
-/*HEADER*/
-
+/* 
 .img {
 	width: 10%;
 }
@@ -56,7 +42,7 @@ header {
 
 /*NAVBAR*/
 
-.navbar {
+/* .navbar {
 	text-decoration: none;
 	list-style: none;
 	display: flex;
@@ -77,48 +63,36 @@ header {
 	text-decoration: none;
 	list-style: none;
 	font-family: 'Inter', sans-serif;
-}
+} */ 
 
 /*PRIMERAS 3 CARDS*/
 
-.grid-cards1 {
-	display: grid;
-	width: 100%;
-	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: repeat(1,1fr);
-	grid-template-areas: "item-1 item-2 item-3";
-	justify-content: center;
+/* .cards1{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
 }
-
-.item-1{
-	grid-area: item-1;
-}
-
-.item-2{
-	grid-area: item-2;
-}
-
-.item-3{
-	grid-area: item-3;
-}
-
-
-
 
 .card {
 	position: relative;
 	width: 300px;
 	margin: 10px;
 	overflow: hidden;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
 }
 
 .card img {
 	width: 140%;
 	height: auto;
 	object-fit: cover;
-}
+} */
 
-.card .overlay {
+/* .card .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -168,76 +142,50 @@ header {
 	-moz-transition: 0.3s;
 	-ms-transition: 0.3s;
 	-o-transition: 0.3s;
-}
+} */
 
 /*FIXTURE Y FOTOS INDEX*/
 
-.fixture img {
+/* .fixture img {
 	width: 1070px;
-	height: 324px;
+	height: 700px;
 }
 
-.grid-cards2 {
-	display: grid;
-	width: 100%;
-	grid-template-columns: repeat(1,1fr);
-	grid-template-rows: repeat(2,1fr);
-	grid-template-areas: 
-	"item-4"
-	"item-0"
-	"item-5";
-	justify-content: space-evenly
-}
-
-.item-4{
-	grid-area: item-4;
-	display: grid;
-	justify-content: center;
-}
-
-.item-5{
-	grid-area: item-5;
-	display: grid;
-	justify-content: center;
-}
-
-
-
-/* .fixture {
-	display: grid;
+.fixture {
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-}
+} */
 
 /*FOTOS*/
 
 /* .fotos {
-	display: grid;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	padding: 100px;
-} */ 
+}
 
 .fotos img {
 	width: 787px;
-	height: 283px;
-}
+	height: 400px;
+} */
 
-.imgclubes {
+/* .imgclubes {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
+} */
 
-.clubesbody {
+/* .clubesbody {
 	background-image: linear-gradient(to right, #a1052a, #67051c);
-}
+} */
 
 /*TABLAS*/
 
-.imgtablas {
+/* .imgtablas {
 	display: flex;
 	justify-content: center;
 	padding: 100px;
@@ -246,18 +194,18 @@ header {
 .imgtablas img {
 	width: 40%;
 	height: 40%;
-}
+} */
 
 /*FORM*/
 
-.form-container {
+/* .form-container {
 	padding: 20px;
 	border-radius: 10px;
 	font-family: 'Inter', sans-serif;
 	color: white;
-}
+} */
 
-.form-group {
+/* .form-group {
 	margin-bottom: 15px;
 }
 
@@ -284,78 +232,36 @@ header {
 .form-button {
 	text-align: center;
 	margin-top: 15px;
-}
+} */
 
-.formh2 {
+/* .formh2 {
 	color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 25px 0px 40px;
-}
+} */
 
-.imglogo {
+/* .imglogo {
 	height: 70px;
 	width: 70px;
-}
-
+} */
+/* 
 .textstyle {
 	font-size: 25px;
 	color: white;
 	font-family: 'Inter', sans-serif;
 }
-.redes{
+.redes {
 	width: 40px;
 	height: 40px;
 }
 
-@media(max-width: 768px){
-	.grid-cards1 {
-		display: grid;
-		width: 100%;
-		grid-template-columns: repeat(1,1fr);
-		grid-template-rows: repeat(1,1fr);
-		grid-template-areas: "item-1";
-		justify-content: center;
-	}
-	.item-2{
-		display: none;
-	}
-	.item-3{
-		display: none;
-	}
-
-	.grid-cards2 {
-		display: grid;
-		width: 100%;
-		grid-template-columns: repeat(1,1fr);
-		grid-template-rows: repeat(1,1fr);
-		grid-template-areas: 
-		"item-4"
-		"item-0"
-		"item-5";
-		justify-content: space-evenly
-	}
-	
-	.item-4{
-		grid-area: item-4;
-		display: grid;
-		justify-content: center;
-		width: 40%;
-	}
-	
-	.item-5{
-		grid-area: item-5;
-		display: grid;
-		justify-content: center;
-		width: 40%;
-	}
-
-	.imgtablas{
+@media (max-width: 768px) {
+	.imgtablas {
 		width: 130%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
-
-}
+} */

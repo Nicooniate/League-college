@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+	.header-index {
+		@include flex(row, $background-color, space-between, center);
+		section {
+			.imglogo {
+				width: 6%;
+				height: 6%;
+			}
+			h1 {
+				@include font(10px, rgb(255, 255, 255));
+			}
+			h2 {
+				@include font(10px, rgb(255, 252, 252));
+				display: none;
+			}
+			a {
+				img {
+					width: 40%;
+					height: 40%;
+				}
+			}
+		}
+	}
+	.navBar {
+		ul {
+			@include flex(row, 0, space-evenly, center);
+			li {
+				a {
+					@include font(10px, white);
+				}
+			}
+		}
+	}
+
+	.item2,
+	.item3 {
+		display: none;
+	}
+
+	.main-index1 {
+		@include flex(0, 0, center, center);
+		section {
+			width: 150px;
+			div {
+				div {
+					button {
+						a {
+							@include font(10px, $background-color2);
+							&:hover {
+								font-size: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.main-index2 {
+		div {
+			img {
+				width: 400px;
+				height: 350px;
+			}
+			button {
+				font-size: 15px;
+			}
+		}
+	}
+
+	.fotos {
+		padding: 25px;
+	}
+
+	.imgtablas {
+		img{
+        top: 0px;
+		left: 0px;
+		width: 25%;
+		height: 25%;
+        }
+	}
+}

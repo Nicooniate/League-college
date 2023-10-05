@@ -1,0 +1,44 @@
+.forminsc{
+    padding: 20px;
+	border-radius: 10px;
+    @include flex(column, 0, center, center);
+    h2{
+        @include font(25px, white);
+        @include flex(row, 0, center, center);
+        padding: 50px 0px 75px;
+    }
+    form{
+        div{
+            @include font(20px, white);
+            margin-bottom: 50px;
+            @include flex(column, 0, center, center);
+            label{
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            input {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            button{
+                cursor: pointer;
+                list-style: none;
+                text-decoration: none;
+                text-align: center;
+                @include font(15px,white);
+                background-color: black;
+                border-radius: 10px ;
+                -webkit-border-radius: 10px ;
+                -moz-border-radius: 10px ;
+                -ms-border-radius: 10px ;
+                -o-border-radius: 10px ;
+                &:hover{
+                color: $background-color
+                }
+            }
+        }
+    }
+}
