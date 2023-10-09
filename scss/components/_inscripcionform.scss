@@ -9,7 +9,7 @@
     }
     form{
         div{
-            @include font(20px, white);
+            @include font(20px, rgb(255, 255, 255));
             margin-bottom: 50px;
             @include flex(column, 0, center, center);
             label{

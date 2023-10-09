@@ -73,11 +73,30 @@
 	}
 
 	.imgtablas {
-		img{
-        top: 0px;
-		left: 0px;
-		width: 25%;
-		height: 25%;
-        }
+		img {
+			top: 0px;
+			left: 0px;
+			width: 35%;
+			height: 35%;
+		}
 	}
+	.imgclubes {
+		margin: 0;
+		padding: 10px;
+		img {
+			top: 0px;
+			left: 0px;
+			width: 50%;
+			height: 50%;
+		}
+	}
+
+	.forminsc{
+		h2{
+			@include font(15px, white);
+			@include flex(row, 0, center, center);
+			text-align: center;
+		}
+	}
+
 }

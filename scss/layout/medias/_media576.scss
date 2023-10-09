@@ -1,0 +1,126 @@
+@media (max-width: 576px) {
+	.header-index {
+		@include flex(row, $background-color, space-between, center);
+		section {
+			.imglogo {
+				width: 6%;
+				height: 6%;
+			}
+			h1 {
+				@include font(10px, rgb(255, 255, 255));
+			}
+			h2 {
+				@include font(10px, rgb(255, 252, 252));
+				display: none;
+			}
+			a {
+				img {
+					width: 40%;
+					height: 40%;
+				}
+			}
+		}
+	}
+	.navBar {
+		ul {
+			@include flex(row, 0, space-evenly, center);
+			li {
+				a {
+					@include font(10px, white);
+				}
+			}
+		}
+	}
+
+	.item2,
+	.item3 {
+		display: none;
+	}
+
+	.main-index1 {
+		@include flex(0, 0, center, center);
+		section {
+			div {
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+				div {
+					button {
+						a {
+							@include font(10px, $background-color2);
+							&:hover {
+								font-size: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.main-index2 {
+		div {
+			img {
+				width: 150px;
+				height: 150px;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+			}
+			button {
+				font-size: 15px;
+			}
+		}
+	}
+
+	.fotos {
+        padding: 25px;
+        width: 150px;
+        height: 150px;
+        img{
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+}
+}
+
+	.imgtablas {
+		img {
+			top: 0px;
+			left: 0px;
+			width: 35%;
+			height: 35%;
+		}
+	}
+	.imgclubes {
+		margin: 0;
+		padding: 10px;
+		img {
+			top: 0px;
+			left: 0px;
+			width: 50%;
+			height: 50%;
+		}
+	}
+
+	.forminsc{
+		h2{
+            padding: 0px 0px 50px;
+			@include font(10px, white);
+			@include flex(row, 0, center, center);
+			text-align: center;
+		}
+        form{
+            div{
+                @include font(10px, rgb(255, 255, 255));
+                margin-bottom: 15px;
+            }
+        }
+	}
+
+}

@@ -1,3 +1,7 @@
 .imgtablas{
         @include flex(row, 0, center, center);
 }
+.imgclubes{
+        @include flex(row, 0, center, center);
+        padding: 10px
+}

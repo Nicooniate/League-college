@@ -197,6 +197,15 @@ body {
   align-items: center;
 }
 
+.imgclubes {
+  display: flex;
+  flex-direction: row;
+  background-color: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
 .forminsc {
   padding: 20px;
   border-radius: 10px;
@@ -223,7 +232,7 @@ body {
   text-decoration: none;
   list-style: none;
   font-size: 20px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Inter", sans-serif;
   margin-bottom: 50px;
   display: flex;
@@ -346,8 +355,164 @@ body {
   .imgtablas img {
     top: 0px;
     left: 0px;
-    width: 25%;
-    height: 25%;
+    width: 35%;
+    height: 35%;
+  }
+  .imgclubes {
+    margin: 0;
+    padding: 10px;
+  }
+  .imgclubes img {
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 50%;
+  }
+  .forminsc h2 {
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .header-index {
+    display: flex;
+    flex-direction: row;
+    background-color: #9e2e2a;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-index section .imglogo {
+    width: 6%;
+    height: 6%;
+  }
+  .header-index section h1 {
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+  }
+  .header-index section h2 {
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    color: rgb(255, 252, 252);
+    font-family: "Inter", sans-serif;
+    display: none;
+  }
+  .header-index section a img {
+    width: 40%;
+    height: 40%;
+  }
+  .navBar ul {
+    display: flex;
+    flex-direction: row;
+    background-color: 0;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .navBar ul li a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    color: white;
+    font-family: "Inter", sans-serif;
+  }
+  .item2,
+  .item3 {
+    display: none;
+  }
+  .main-index1 {
+    display: flex;
+    flex-direction: 0;
+    background-color: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-index1 section div img {
+    width: 150px;
+    height: 150px;
+  }
+  .main-index1 section div div button a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    color: #761b18;
+    font-family: "Inter", sans-serif;
+  }
+  .main-index1 section div div button a:hover {
+    font-size: 10px;
+  }
+  .main-index2 div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .main-index2 div button {
+    font-size: 15px;
+  }
+  .fotos {
+    padding: 25px;
+    width: 150px;
+    height: 150px;
+  }
+  .fotos img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .imgtablas img {
+    top: 0px;
+    left: 0px;
+    width: 35%;
+    height: 35%;
+  }
+  .imgclubes {
+    margin: 0;
+    padding: 10px;
+  }
+  .imgclubes img {
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 50%;
+  }
+  .forminsc h2 {
+    padding: 0px 0px 50px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .forminsc form div {
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 15px;
   }
 }
 
