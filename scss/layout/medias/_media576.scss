@@ -23,10 +23,10 @@
 	}
 	.navBar {
 		ul {
-			@include flex(row, 0, space-evenly, center);
+			@include flex(row, 0, space-between	, center);
 			li {
 				a {
-					@include font(10px, white);
+					@include font(10px, rgb(255, 255, 255));
 				}
 			}
 		}
@@ -93,8 +93,8 @@
 		img {
 			top: 0px;
 			left: 0px;
-			width: 35%;
-			height: 35%;
+			width: 350px;
+			height: 400px;
 		}
 	}
 	.imgclubes {
@@ -103,8 +103,8 @@
 		img {
 			top: 0px;
 			left: 0px;
-			width: 50%;
-			height: 50%;
+			width: 500px;
+			height: 500px;
 		}
 	}
 
