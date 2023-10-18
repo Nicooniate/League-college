@@ -23,7 +23,7 @@
 	}
 	.navBar {
 		ul {
-			@include flex(row, 0, space-between	, center);
+			@include flex(row, 0, space-between, center);
 			li {
 				a {
 					@include font(10px, rgb(255, 255, 255));
@@ -41,10 +41,10 @@
 		@include flex(0, 0, center, center);
 		section {
 			div {
-                img{
-                    width: 150px;
-                    height: 150px;
-                }
+				img {
+					width: 150px;
+					height: 150px;
+				}
 				div {
 					button {
 						a {
@@ -64,11 +64,11 @@
 			img {
 				width: 150px;
 				height: 150px;
-                border-radius: 10px;
-                -webkit-border-radius: 10px;
-                -moz-border-radius: 10px;
-                -ms-border-radius: 10px;
-                -o-border-radius: 10px;
+				border-radius: 10px;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				-ms-border-radius: 10px;
+				-o-border-radius: 10px;
 			}
 			button {
 				font-size: 15px;
@@ -77,17 +77,17 @@
 	}
 
 	.fotos {
-        padding: 25px;
-        width: 150px;
-        height: 150px;
-        img{
-            border-radius: 10px;
-            -webkit-border-radius: 10px;
-            -moz-border-radius: 10px;
-            -ms-border-radius: 10px;
-            -o-border-radius: 10px;
-}
-}
+		padding: 25px;
+		width: 150px;
+		height: 150px;
+		img {
+			border-radius: 10px;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			-ms-border-radius: 10px;
+			-o-border-radius: 10px;
+		}
+	}
 
 	.imgtablas {
 		img {
@@ -108,19 +108,18 @@
 		}
 	}
 
-	.forminsc{
-		h2{
-            padding: 0px 0px 50px;
+	.forminsc {
+		h2 {
+			padding: 0px 0px 50px;
 			@include font(10px, white);
 			@include flex(row, 0, center, center);
 			text-align: center;
 		}
-        form{
-            div{
-                @include font(10px, rgb(255, 255, 255));
-                margin-bottom: 15px;
-            }
-        }
+		form {
+			div {
+				@include font(10px, rgb(255, 255, 255));
+				margin-bottom: 15px;
+			}
+		}
 	}
-
 }
