@@ -37,38 +37,7 @@
 					border-color: rgba(255, 0, 0, 0);
 					@include font(30px, $background-color2);
 					background-color: rgba(0, 0, 0, 0.783);
-					a {
-						text-decoration: none;
-						list-style: none;
-						color: $background-color2;
-						&:hover {
-							transition: 0.3s;
-							-webkit-transition: 0.3s;
-							-moz-transition: 0.3s;
-							-ms-transition: 0.3s;
-							-o-transition: 0.3s;
-							border-color: rgba(255, 0, 0, 0);
-							color: #fdfdfd
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-.main-index2 {
-    @include flex(column, 0, space-evenly, center);
-		div {
-            @include flex(column, 0, center, center);
-			img {
-				width: 1070px;
-				height: 700px;
-			}
-			button {
-                border-color: rgba(255, 0, 0, 0);
-					@include font(30px, $background-color2);
-					background-color: rgba(0, 0, 0, 0.783);
+					padding: 0 60px;
 					a {
 						text-decoration: none;
 						list-style: none;
@@ -81,16 +50,56 @@
 							-o-transition: 0.3s;
 							border-color: rgba(255, 0, 0, 0);
 							color: #fdfdfd;
-}}}}}
-
-.fotos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 100px;
-			img{
-				width: 787px;
-				height: 400px;
+						}
+					}
+				}
 			}
+		}
+	}
+}
+
+.main-index2 {
+	@include flex(column, 0, space-evenly, center);
+	div {
+		@include flex(column, 0, center, center);
+		img {
+			width: 1070px;
+			height: 700px;
+		}
+		button {
+			border-color: rgba(255, 0, 0, 0);
+			@include font(30px, $background-color2);
+			background-color: rgba(0, 0, 0, 0.783);
+			a {
+				text-decoration: none;
+				list-style: none;
+				color: $background-color2;
+				&:hover {
+					transition: 0.3s;
+					-webkit-transition: 0.3s;
+					-moz-transition: 0.3s;
+					-ms-transition: 0.3s;
+					-o-transition: 0.3s;
+					border-color: rgba(255, 0, 0, 0);
+					color: #fdfdfd;
+				}
+			}
+		}
+	}
+}
+
+.fotos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 100px;
+	img {
+		width: 787px;
+		height: 400px;
+	}
+}
+
+footer {
+	@include font(10px, rgb(255, 255, 255));
 }

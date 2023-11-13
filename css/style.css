@@ -31,7 +31,7 @@ body {
   color: rgb(255, 255, 255);
   font-family: "Inter", sans-serif;
 }
-.header-index section h2 {
+.header-index section p {
   text-decoration: none;
   list-style: none;
   font-size: 25px;
@@ -119,6 +119,7 @@ body {
   color: #761b18;
   font-family: "Inter", sans-serif;
   background-color: rgba(0, 0, 0, 0.783);
+  padding: 0 60px;
 }
 .main-index1 section div div button a {
   text-decoration: none;
@@ -187,6 +188,14 @@ body {
 .fotos img {
   width: 787px;
   height: 400px;
+}
+
+footer {
+  text-decoration: none;
+  list-style: none;
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
 }
 
 .imgtablas {
