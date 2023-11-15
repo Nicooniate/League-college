@@ -11,8 +11,8 @@
 		@include flex(row, $background-color, space-between, center);
 		section {
 			.imglogo {
-				width: 6%;
-				height: 6%;
+				width: 2rem;
+				height: 2rem;
 			}
 			h1 {
 				@include font(10px, rgb(255, 255, 255));
@@ -29,7 +29,7 @@
 			}
 		}
 	}
-	
+
 	.navBar {
 		ul {
 			.itemFixture{
