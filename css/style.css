@@ -392,6 +392,16 @@ footer {
   }
 }
 @media (max-width: 576px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 5px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+  }
   .header-index {
     display: flex;
     flex-direction: row;
@@ -410,7 +420,7 @@ footer {
     color: rgb(255, 255, 255);
     font-family: "Inter", sans-serif;
   }
-  .header-index section h2 {
+  .header-index section p {
     text-decoration: none;
     list-style: none;
     font-size: 10px;
@@ -426,8 +436,12 @@ footer {
     display: flex;
     flex-direction: row;
     background-color: 0;
-    justify-content: space-between;
+    justify-content: 0;
     align-items: center;
+    padding: 0px 0px 0px 0px;
+  }
+  .navBar ul .itemFixture {
+    display: none;
   }
   .navBar ul li a {
     text-decoration: none;
@@ -451,7 +465,13 @@ footer {
     width: 150px;
     height: 150px;
   }
+  .main-index1 section div div button {
+    padding: 8px 15px;
+  }
   .main-index1 section div div button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     list-style: none;
     font-size: 10px;

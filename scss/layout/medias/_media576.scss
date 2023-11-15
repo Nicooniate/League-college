@@ -1,4 +1,12 @@
 @media (max-width: 576px) {
+
+	.footer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		@include font(5px, rgb(255, 255, 255));
+	}
+
 	.header-index {
 		@include flex(row, $background-color, space-between, center);
 		section {
@@ -9,7 +17,7 @@
 			h1 {
 				@include font(10px, rgb(255, 255, 255));
 			}
-			h2 {
+			p {
 				@include font(10px, rgb(255, 252, 252));
 				display: none;
 			}
@@ -21,11 +29,18 @@
 			}
 		}
 	}
+	
 	.navBar {
 		ul {
-			@include flex(row, 0, space-between, center);
+			.itemFixture{
+				display: none;
+			}
+			@include flex(row, 0,0, center);
+			padding: 0px 0px 0px 0px;
 			li {
+				
 				a {
+					
 					@include font(10px, rgb(255, 255, 255));
 				}
 			}
@@ -47,7 +62,11 @@
 				}
 				div {
 					button {
+						padding: 8px 15px;
 						a {
+							display: flex;
+							align-items: center;
+							justify-content: center;
 							@include font(10px, $background-color2);
 							&:hover {
 								font-size: 10px;
@@ -122,4 +141,6 @@
 			}
 		}
 	}
+
 }
+
